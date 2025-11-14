@@ -1,0 +1,18 @@
+{
+  "parameters": {
+    "learning_rate": 0.01,
+    "batch_size": 64,
+    "local_epochs": 3,
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "dropout_rate": 0.0,
+    "optimizer": "adam",
+    "aggregation_strategy": "accuracy",
+    "differential_privacy_enabled": false,
+    "dp_epsilon": 1.0,
+    "model_save_interval": 5
+  },
+  "timestamp": "2025-11-16T12:00:00.000000",
+  "history_count": 0,
+  "optimization_notes": "Increased learning_rate 10x, batch_size 2x, local_epochs 3x for faster convergence"
+}

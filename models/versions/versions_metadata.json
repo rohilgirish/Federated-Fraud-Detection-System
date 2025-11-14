@@ -1,0 +1,707 @@
+{
+  "versions": [
+    {
+      "version_id": "v5_1763059756",
+      "round": 5,
+      "accuracy": 0.9983322214809873,
+      "timestamp": "2025-11-14T00:19:16.058395",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v10_1763059771",
+      "round": 10,
+      "accuracy": 0.9982444436641972,
+      "timestamp": "2025-11-14T00:19:31.981423",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v15_1763059784",
+      "round": 15,
+      "accuracy": 0.9983322214809873,
+      "timestamp": "2025-11-14T00:19:44.847358",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v20_1763059799",
+      "round": 20,
+      "accuracy": 0.9983146659176293,
+      "timestamp": "2025-11-14T00:19:59.593303",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v25_1763059814",
+      "round": 25,
+      "accuracy": 0.9983322214809873,
+      "timestamp": "2025-11-14T00:20:14.922947",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v30_1763059839",
+      "round": 30,
+      "accuracy": 0.9982444436641972,
+      "timestamp": "2025-11-14T00:20:39.600085",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v35_1763059877",
+      "round": 35,
+      "accuracy": 0.9983146659176293,
+      "timestamp": "2025-11-14T00:21:17.136064",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v40_1763059914",
+      "round": 40,
+      "accuracy": 0.9983322214809873,
+      "timestamp": "2025-11-14T00:21:54.923995",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v45_1763059928",
+      "round": 45,
+      "accuracy": 0.9982444436641972,
+      "timestamp": "2025-11-14T00:22:08.589121",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v50_1763059945",
+      "round": 50,
+      "accuracy": 0.9983146659176293,
+      "timestamp": "2025-11-14T00:22:25.099328",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v55_1763059962",
+      "round": 55,
+      "accuracy": 0.9983322214809873,
+      "timestamp": "2025-11-14T00:22:42.871758",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v60_1763059976",
+      "round": 60,
+      "accuracy": 0.9982444436641972,
+      "timestamp": "2025-11-14T00:22:56.575981",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v65_1763059994",
+      "round": 65,
+      "accuracy": 0.9983146659176293,
+      "timestamp": "2025-11-14T00:23:14.930963",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v70_1763060013",
+      "round": 70,
+      "accuracy": 0.9983322214809873,
+      "timestamp": "2025-11-14T00:23:33.443904",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v75_1763060025",
+      "round": 75,
+      "accuracy": 0.9982444436641972,
+      "timestamp": "2025-11-14T00:23:45.988928",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v80_1763060046",
+      "round": 80,
+      "accuracy": 0.9983146659176293,
+      "timestamp": "2025-11-14T00:24:06.867790",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v85_1763060077",
+      "round": 85,
+      "accuracy": 0.9983322214809873,
+      "timestamp": "2025-11-14T00:24:37.369428",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v90_1763060091",
+      "round": 90,
+      "accuracy": 0.9982444436641972,
+      "timestamp": "2025-11-14T00:24:51.745761",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v95_1763060109",
+      "round": 95,
+      "accuracy": 0.9983146659176293,
+      "timestamp": "2025-11-14T00:25:09.603524",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v100_1763060128",
+      "round": 100,
+      "accuracy": 0.9983322214809873,
+      "timestamp": "2025-11-14T00:25:28.323913",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v105_1763060142",
+      "round": 105,
+      "accuracy": 0.9982444436641972,
+      "timestamp": "2025-11-14T00:25:42.827806",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v110_1763060175",
+      "round": 110,
+      "accuracy": 0.9983146659176293,
+      "timestamp": "2025-11-14T00:26:15.823028",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v115_1763060206",
+      "round": 115,
+      "accuracy": 0.9983322214809873,
+      "timestamp": "2025-11-14T00:26:46.587603",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v120_1763060222",
+      "round": 120,
+      "accuracy": 0.9982444436641972,
+      "timestamp": "2025-11-14T00:27:02.065913",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v5_1763100779",
+      "round": 5,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:42:59.464455",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v10_1763100879",
+      "round": 10,
+      "accuracy": 0.9984902215512096,
+      "timestamp": "2025-11-14T11:44:39.342022",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v15_1763100920",
+      "round": 15,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:45:20.491606",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v20_1763100976",
+      "round": 20,
+      "accuracy": 0.9984902215512096,
+      "timestamp": "2025-11-14T11:46:16.651152",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v25_1763101029",
+      "round": 25,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:47:09.590577",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v30_1763101057",
+      "round": 30,
+      "accuracy": 0.9984902215512096,
+      "timestamp": "2025-11-14T11:47:37.347378",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v35_1763101084",
+      "round": 35,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:48:04.361769",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v40_1763101130",
+      "round": 40,
+      "accuracy": 0.9984902215512096,
+      "timestamp": "2025-11-14T11:48:50.722645",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v45_1763101172",
+      "round": 45,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:49:32.452186",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v50_1763101196",
+      "round": 50,
+      "accuracy": 0.9984902215512096,
+      "timestamp": "2025-11-14T11:49:56.677070",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v55_1763101223",
+      "round": 55,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:50:23.886936",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v60_1763101252",
+      "round": 60,
+      "accuracy": 0.9984902215512096,
+      "timestamp": "2025-11-14T11:50:52.080617",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v65_1763101277",
+      "round": 65,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:51:17.351353",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v70_1763101306",
+      "round": 70,
+      "accuracy": 0.9984902215512096,
+      "timestamp": "2025-11-14T11:51:46.653977",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v75_1763101334",
+      "round": 75,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:52:14.131138",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v80_1763101366",
+      "round": 80,
+      "accuracy": 0.9984902215512096,
+      "timestamp": "2025-11-14T11:52:46.721361",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v85_1763101425",
+      "round": 85,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:53:45.007298",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v90_1763101462",
+      "round": 90,
+      "accuracy": 0.9984902215512096,
+      "timestamp": "2025-11-14T11:54:22.681658",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v95_1763101507",
+      "round": 95,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:55:07.255029",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v100_1763101557",
+      "round": 100,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:55:57.299702",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v105_1763101606",
+      "round": 105,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:56:46.796288",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v110_1763101657",
+      "round": 110,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:57:37.185322",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v115_1763101711",
+      "round": 115,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:58:31.207814",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v120_1763101775",
+      "round": 120,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T11:59:35.060297",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v125_1763101830",
+      "round": 125,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:00:30.324069",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v130_1763101881",
+      "round": 130,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:01:21.154176",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v135_1763101934",
+      "round": 135,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:02:14.092711",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v140_1763101984",
+      "round": 140,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:03:04.710768",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v145_1763102035",
+      "round": 145,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:03:55.268828",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v150_1763102084",
+      "round": 150,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:04:44.521432",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v155_1763102134",
+      "round": 155,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:05:34.280386",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v160_1763102181",
+      "round": 160,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:06:21.901686",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v165_1763102231",
+      "round": 165,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:07:11.778255",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v170_1763102294",
+      "round": 170,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:08:14.071723",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v175_1763102346",
+      "round": 175,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:09:06.568224",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v180_1763102404",
+      "round": 180,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:10:04.579076",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v185_1763102467",
+      "round": 185,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:11:07.214667",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v190_1763102584",
+      "round": 190,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:13:04.053083",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v195_1763102685",
+      "round": 195,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:14:45.635194",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v200_1763102734",
+      "round": 200,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:15:34.258709",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v205_1763102787",
+      "round": 205,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:16:27.162555",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v210_1763102841",
+      "round": 210,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:17:21.060647",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v215_1763102895",
+      "round": 215,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:18:15.270967",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v220_1763102960",
+      "round": 220,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:19:20.469091",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v225_1763103041",
+      "round": 225,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:20:41.406678",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    },
+    {
+      "version_id": "v230_1763103111",
+      "round": 230,
+      "accuracy": 0.9982093325374811,
+      "timestamp": "2025-11-14T12:21:51.064917",
+      "metadata": {
+        "fairness_score": 0.85
+      },
+      "status": "saved"
+    }
+  ],
+  "current_version": "v230_1763103111",
+  "best_version": "v10_1763100879",
+  "best_accuracy": 0.9984902215512096
+}

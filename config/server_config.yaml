@@ -1,0 +1,15 @@
+logging:
+  level: INFO
+  log_dir: logs
+server:
+  aggregation_strategy: accuracy
+  byzantine_tolerance: 0.1
+  checkpoint_enabled: true
+  enable_differential_privacy: false
+  heartbeat_timeout: 120
+  host: "0.0.0.0"
+  idle_timeout: 300
+  max_consecutive_timeouts: 3
+  model_save_interval: 5
+  persistence_db: logs/server_state.db
+  port: 8085

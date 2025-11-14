@@ -1,0 +1,11 @@
+client:
+  batch_size: 128
+  connection_retries: 3
+  connection_retry_delay: 2
+  data_file: data/creditcard.csv
+  host: localhost
+  learning_rate: 0.001
+  local_epochs: 5
+  max_rounds: 999999
+  port: 8085
+  round_delay: 3
