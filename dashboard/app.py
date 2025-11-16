@@ -135,17 +135,23 @@ st.markdown("""
 
 # Helper function to get the correct path for training_history.json
 def get_training_history_path():
-    """Get the correct path to training_history.json, checking parent directory first"""
-    # First try parent directory (when running from /dashboard)
+    """Get the correct path to training_history.json inside the training directory"""
+    # Prefer the new training folder path
+    training_folder_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'training', 'training_history.json')
+    if os.path.exists(training_folder_path):
+        return training_folder_path
+        
+    # Fallback to current directory training folder
+    local_training_path = os.path.join('training', 'training_history.json')
+    if os.path.exists(local_training_path):
+        return local_training_path
+
+    # Original parent fallback
     parent_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'training_history.json')
     if os.path.exists(parent_path):
         return parent_path
-    # Fallback to current directory
-    current_path = 'training_history.json'
-    if os.path.exists(current_path):
-        return current_path
-    # Return parent path as default even if doesn't exist
-    return parent_path
+        
+    return 'training/training_history.json'
 
 class AlertsManager:
     """Manages real-time alerts with threshold-based anomaly detection"""

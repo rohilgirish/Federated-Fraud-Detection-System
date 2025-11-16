@@ -72,7 +72,7 @@ class SimpleFederatedServer:
         }
         
         # Initialize metrics persistence
-        self.metrics_history = MetricsHistory('training_history.json')
+        self.metrics_history = MetricsHistory('training/training_history.json')
         
         # Try to load from checkpoint
         checkpoint = self.persistence.load_latest_checkpoint()

@@ -44,10 +44,12 @@ The project is organized into a modular hierarchy to support professional deploy
 *   **`/utils`**: Shared system utilities including centralized logging and metric persistence.
 *   **`/scripts`**: Operational automation tools (data generators, system health checks).
 *   **`/dashboard`**: Streamlit-based monitoring frontend.
+*   **`/logs`**: Persistent audit trails and server state snapshots stored in SQLite databases.
 
 ### Outputs
-*   **`/logs`**: Persistent audit trails and server state snapshots stored in SQLite databases.
-*   **`/metrics`**: Training history stored in JSON format for the dashboard visualization.
+*   **`/training`**: Centralized location for model training scripts and historical performance logs.
+    *   `train.py`: Standalone baseline training script for benchmarker comparison.
+    *   `training_history.json`: Core data file for dashboard metrics persistence.
 
 ## Advanced Features in Detail
 

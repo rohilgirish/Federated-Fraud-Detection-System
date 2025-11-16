@@ -11,7 +11,7 @@ from pathlib import Path
 class MetricsHistory:
     """Save and load federated learning metrics to/from JSON"""
     
-    def __init__(self, filename='training_history.json'):
+    def __init__(self, filename='training/training_history.json'):
         """
         Initialize metrics history handler
         
