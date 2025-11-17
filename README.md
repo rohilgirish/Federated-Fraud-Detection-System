@@ -84,4 +84,4 @@ pip install -r requirements.txt
 This software is designed to facilitate compliance with data privacy laws by ensuring that no Personally Identifiable Information (PII) is ever transmitted. The noise addition meets modern differential privacy standards for ε-differential privacy, suitable for production banking environments.
 
 ## License
-MIT License. See the [LICENSE](LICENSE) file for the full text.
+This project is distributed under the MIT License. Full details can be found in the [LICENSE](LICENSE) file.
